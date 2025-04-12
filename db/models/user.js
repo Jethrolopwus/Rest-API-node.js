@@ -39,10 +39,10 @@ updatedAt: {
 },
 deletedAt: {
   type: Sequelize.DATE,
-  allowNull: false,
+  allowNull: true,
 }
 }, {
   paranoid: true,
   freezeTableName: true,
-  modelName: 'users'
+  modelName: 'user'
 })
